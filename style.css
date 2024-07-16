@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(/./assets/thumbnail.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.navBar{
+    width: 1500px;
+    height: 75px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.icon{
+    width: 250px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: rgb(202, 130, 62);
+    padding-top: 30px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    float: left;
+}
+
+.menu{
+    padding-right: 30px;
+    width: 300px;
+    float: left;
+    height: 70px;
+    display: flex;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(202, 130, 62);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out
+}
+
+ul li a:hover{
+    color: #e0a371;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 200px;
+    padding-top: 20px;
+}
+
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    color: whitesmoke;
+    border: 1px solid rgb(202, 130, 62);
+    margin-top: 13px;
+    font-size: 16px;
+    float: left;
+    display: flex;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(202, 130, 62);
+    margin-top: 13px;
+    border: 1px solid rgb(202, 130, 62);
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1500px;
+    height: auto;
+    margin: auto;
+    color:#fff  ;
+    position: relative;
+}
+
+.content .par1{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px   ;
+}
+.content h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .cm{
+    width: 160px;
+    height: 40px;
+    background: #e0a371;;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.cm:hover{
+    background-color: #ff7200
+}
+
+.content span{
+    color: rgb(202, 130, 62);
+    font-size: 65px;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    position: absolute;
+    top: 18px;
+    left: 1180px;
+    border-radius: 10px;
+    padding: 25px;
+    
+}
+
+.form h2{
+    width: 210px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #e0a371;
+    font-size: 30px;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    color: #e0a371;
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: rgba(128, 128, 128, 0.308);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn1{
+    width: 240px;
+    height: 40px;
+    border: none;
+    background: #e0a371;
+    margin-top: 30px;
+    font-size: 15px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    background-color: #ff7200;
+}
+
+.btn1 a{
+    text-decoration: none;
+    color:#131313 ;
+}
+
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a{
+    text-decoration: none;
+    color: #ff7200;
+}
+
+.form .liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icons a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 9px;
+
+}
+
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 16px;
+    transition: 0.3s ease;
+    padding-top: 5px;
+}
+
+.icons ion-icon:hover{
+    color: #e0a371;
+}
